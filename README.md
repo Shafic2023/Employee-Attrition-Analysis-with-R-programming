@@ -2,7 +2,7 @@
 Employee Attrition Analysis with R (IBM Dataset )
 
 
-In the ever-changing business world, understanding and reducing employee attrition is crucial for the success of any organization. Employee turnover not only affects workforce stability but also has far-reaching implications for productivity and performance. In this article, we delve into the world of human resources data analytics, leveraging the power of R, a statistical programming language, to conduct a comprehensive analysis of employee attrition and its impact on performance. By dissecting HR data and employees performance with statistical techniques, we aim to uncover valuable insights into the factors driving attrition and how it relates to workforce performance.
+In the ever-changing business world, understanding and reducing employee attrition is crucial for the success of any organization. Employee turnover not only affects workforce stability but also has far-reaching implications for productivity and performance. In this project, I delve into the world of human resources data analytics, leveraging the power of R, a statistical programming language, to conduct a comprehensive analysis of employee attrition and its impact on performance. By dissecting HR data and employees performance with statistical techniques, we aim to uncover valuable insights into the factors driving attrition and how it relates to workforce performance.
 Take this data-driven journey as we explore the patterns, correlations, and actionable strategies that can empower organizations to retain top talent and optimize their performance.
 The goal of this analysis is to model employee attrition and determine the most dominant contributing factors that govern this turnover.
                                    About Me
@@ -10,27 +10,27 @@ Data Analyst: Shafic Sebanenya
 Email: sebanenyashafic2@gmail.com
 LinkedIn: Shafic Sebanenya
 Contact: +971-56389 5861/ +971-5250 49127
-Key Findings of the project:
-There's a strong positive correlation between total years working and monthly income and between age and total years working.
-We found a correlation of 50% between age and monthly income, and this correlation can be attributed to various factors.
-Longevity is not a significant factor in employees' attrition. The length of time an employee stays with the company doesn't play a significant role in their decision to leave.
-There is a strong correlation between education and daily rate, especially in research & development departments.
-Younger workers were consequently more vulnerable to layoffs and were at a higher risk of experiencing attrition by HR as compared to their older counterparts.
-The combined factors of age and the total number of working years account for nearly 60% of the variability in total monthly income.
-Let's start with the data:
+##Key Findings of the project:
+*There's a strong positive correlation between total years working and monthly income and between age and total years working.
+*We found a correlation of 50% between age and monthly income, and this correlation can be attributed to various factors.
+*Longevity is not a significant factor in employees' attrition. The length of time an employee stays with the company doesn't play a significant role in their decision to leave.
+*There is a strong correlation between education and daily rate, especially in research & development departments.
+*Younger workers were consequently more vulnerable to layoffs and were at a higher risk of experiencing attrition by HR as compared to their older counterparts.
+*The combined factors of age and the total number of working years account for nearly 60% of the variability in total monthly income.
+*Let's start with the data*:
 In this project I act as a People Data Analyst intern for IBM in the Human Resources department. There's been lots of people leaving the company.
 The employer has asked me to determine the reasons behind the sudden layoffs of so many employees. A former employee has claimed that ageism played a part in recent layoffs, and my employer wants me to investigate these claims. I've also been asked to look over the data to see if I have any insights I could provide.
 The data used for this analysis is an augmented version created by real IBM data scientists, but isn't exactly 100% real data. You can find it here: Dataset. This data set is a mixed metrics of employee information and has various features. The data set is in CSV format which has 1470 rows and 35 columns. Each row represents an employee. This dataset includes important attributes like:
-Age
-Attrition
-Daily Rate
-Education
-Employee Number
-Gender
-Hourly Rate
-Job Role
-Monthly Income
-Total working years
+*Age
+*Attrition
+*Daily Rate
+*Education
+*Employee Number
+*Gender
+*Hourly Rate
+*Job Role
+*Monthly Income
+*Total working years
 Years at company
 Years in current role
 The dataset helps in the analytical stage to examine the metrics report to find trends and patterns that could affect a company. Various analytical techniques are employed based on the desired result. Descriptive analytics, prescriptive analytics, and predictive analytics are a few of them. The only goal of descriptive analytics is to comprehend previous data and identify areas for improvement. The goal of predictive analytics is to foresee future dangers or opportunities by analyzing previous data using statistical models.
